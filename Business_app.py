@@ -108,7 +108,7 @@ def scrape_amazon(product_name):
 
 # Streamlit app layout and functionality
 def main():
-    st.title('products price in Google')
+    st.title('products price in Amazon and Google')
     st.write('هذا التطبيق يقوم بجلب أسعار المنتجات من أمازون وعرضها بالعملة المحلية')
 
     # Request product name from the user
