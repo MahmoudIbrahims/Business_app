@@ -112,7 +112,7 @@ def main():
     st.write('هذا التطبيق يقوم بجلب أسعار المنتجات من أمازون وعرضها بالعملة المحلية')
 
     # Request product name from the user
-    product_name = st.text_input('ادخل اسم المنتج:')
+    product_name = st.text_input('please Enter the product name ?')
     if st.button('جلب الأسعار'):
         if product_name:
             st.write(f'إليك أسعار {product_name} على أمازون:')
